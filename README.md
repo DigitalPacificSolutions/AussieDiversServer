@@ -9,7 +9,7 @@ Proposed API
 
 | Path                       | HTTP Verb | Functionality                            |
 | -------------------------- | --------- | ---------------------------------------- |
-| /api/customers             | GET       | List all customers (only id, name, DOB)  |
+| /api/customers             | GET       | List all customers                       |
 | /api/customers             | POST      | Create new customer                      |
 | /api/customers/{id}        | PUT/PATCH | Update customer with given id            |
 | /api/customers/{id}        | DELETE    | Mark as inactive / hide customer         |
